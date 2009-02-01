@@ -10,6 +10,7 @@ Source0:	http://hackmysql.com/scripts/%{name}-%{version}.tgz
 URL:		http://hackmysql.com/
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl-DBD-mysql
+BuildArch:	noarch
 
 %description
 mysqlreport makes a friendly report of important MySQL status values.
