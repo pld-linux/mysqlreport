@@ -11,6 +11,7 @@ URL:		http://hackmysql.com/
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl-DBD-mysql
 BuildArch:	noarch
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 mysqlreport makes a friendly report of important MySQL status values.
