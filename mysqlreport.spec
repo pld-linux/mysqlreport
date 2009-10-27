@@ -2,7 +2,7 @@
 Summary:	mysqlreport - friendly report of important MySQL status values
 Name:		mysqlreport
 Version:	3.5
-Release:	0.1
+Release:	1
 License:	GPL v2
 Group:		Applications/Databases
 Source0:	http://hackmysql.com/scripts/%{name}-%{version}.tgz
@@ -26,7 +26,7 @@ STATUS.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -D %{name} $RPM_BUILD_ROOT%{_bindir}/%{name}
+install -Dp %{name} $RPM_BUILD_ROOT%{_bindir}/%{name}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
