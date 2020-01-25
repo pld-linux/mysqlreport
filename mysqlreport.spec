@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	mysqlreport - friendly report of important MySQL status values
 Name:		mysqlreport
 Version:	3.5
